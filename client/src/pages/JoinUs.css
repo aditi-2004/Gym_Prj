@@ -1,0 +1,317 @@
+.join-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Membership Section */
+.membership-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 1000px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #58d8a3;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* Plans Section */
+.membership-plans {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.plan-card {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  width: 30%;
+  min-width: 280px;
+  text-align: center;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  flex: 1;
+}
+
+.plan-card:hover {
+  transform: scale(1.05);
+  border-color: #58d8a3;
+  box-shadow: 0px 5px 15px rgba(88, 216, 163, 0.5);
+}
+
+.popular {
+  background: rgba(88, 216, 163, 0.2);
+  border: 2px solid #58d8a3;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #58d8a3;
+}
+
+.price span {
+  font-size: 16px;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.plan-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.plan-card ul li {
+  padding: 8px 0;
+  color: white;
+}
+
+/* Join Button */
+.join-button {
+  background: #58d8a3;
+  color: #0f2027;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.join-button:hover {
+  background: #42b98d;
+}
+
+/* Why Choose Section */
+.why-choose-section {
+  margin-top: 50px;
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 1000px;
+}
+
+.section-header {
+  margin-bottom: 2rem;
+}
+
+.sub-title {
+  color: #58d8a3;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.benefit-item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  border-color: #58d8a3;
+  box-shadow: 0px 5px 15px rgba(88, 216, 163, 0.3);
+}
+
+.benefit-item h3 {
+  color: #58d8a3;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.benefit-item p {
+  color: #fff;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.cta-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.cta-text {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #58d8a3;
+  color: #0f2027;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #42b98d;
+}
+
+@media (max-width: 768px) {
+  .membership-plans {
+      flex-direction: column;
+  }
+  
+  .plan-card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  
+  .benefits-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .why-choose-section {
+      padding: 30px 20px;
+  }
+  
+  .title {
+      font-size: 2rem;
+  }
+}
+
+/* ... (previous styles remain the same) ... */
+
+.cta-wrapper {
+  background: #37415145;
+  padding: 3rem;
+  border-radius: 15px;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.cta-content {
+  margin-bottom: 3rem;
+}
+
+.cta-text {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.cta-button {
+  background: #58d8a3d9;
+  color: black;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #a5d6a7;
+  transform: translateY(-2px);
+}
+
+.feature-boxes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.feature-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e8f5e9;
+}
+
+.feature-box h3 {
+  color: white;
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .feature-boxes {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .cta-wrapper {
+      padding: 2rem 1rem;
+  }
+
+  .feature-boxes {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  }
+
+  .cta-text {
+      font-size: 1.2rem;
+  }
+
+  .cta-button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+  }
+}

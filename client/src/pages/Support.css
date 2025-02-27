@@ -1,0 +1,81 @@
+.support {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .faq {
+    margin-top: 40px;
+  }
+  
+  .faq-item {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(107, 60, 60, 0.1);
+  }
+  
+  .faq-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .contact {
+    margin-top: 40px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    background-color: #3f9b92;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #32877b;
+  }
+  
+  .social-media {
+    margin-top: 40px;
+  }
+  
+  .social-media h2 {
+    font-size: 1.8rem;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-icons a:hover {
+    color: #3f9b92;
+  }
+  

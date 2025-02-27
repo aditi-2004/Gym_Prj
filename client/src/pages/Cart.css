@@ -1,0 +1,141 @@
+/* Cart Page Container */
+.cart-container {
+  padding: 40px;
+  /* Use the same gradient as your main background */
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%); 
+  min-height: 100vh;
+  color: #ffffff; /* Text color should be light against the dark background */
+  text-align: center;
+}
+
+/* Cart Title */
+.cart-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3f9b92; /* Use your accent color */
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(63, 155, 146, 0.5); /* Add a subtle glow */
+}
+
+/* Empty Cart Message */
+.empty-cart-text {
+  font-size: 1.2rem;
+  color: #f0f0f0; /* Light text */
+}
+
+/* Cart Content */
+.cart-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(15, 15, 15, 0.95); /* Slightly transparent dark background */
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(10px); /* Add a blur effect for Safari */
+  backdrop-filter: blur(10px); /* Add a blur effect */
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Cart Items */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: rgba(63, 155, 146, 0.1); /* Subtle background for items */
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(63, 155, 146, 0.2); /* Teal shadow */
+  border: 1px solid rgba(63, 155, 146, 0.1);
+}
+
+/* Cart Item Image */
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+/* Cart Item Details */
+.cart-item-details {
+  text-align: left;
+  flex: 1;
+  color: #fff; /* Light text */
+}
+
+.cart-item-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #3f9b92; /* Accent color */
+}
+
+.cart-item-details p {
+  font-size: 1.1rem;
+  margin: 3px 0;
+}
+
+/* Price Styling */
+.cart-price {
+  font-weight: bold;
+  color: #3f9b92; /* Accent color */
+}
+
+/* Order Summary */
+.cart-summary {
+  background: rgba(15, 15, 15, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+  -webkit-backdrop-filter: blur(10px); /* Add a blur effect for Safari */
+  backdrop-filter: blur(10px); /* Add a blur effect */
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.cart-summary h3 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3f9b92; /* Accent color */
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Total Price */
+.total-price {
+  color: #3f9b92; /* Accent color */
+  font-size: 1.5rem;
+}
+
+/* Checkout Button */
+.checkout-btn {
+  background: linear-gradient(45deg, #3f9b92, #2c7a73); /* Gradient button */
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white; /* Light text */
+  width: 100%;
+  transition: 0.3s ease;
+  border: none; /* Remove default border */
+  box-shadow: 0 4px 15px rgba(63, 155, 146, 0.2);
+}
+
+.checkout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(63, 155, 146, 0.4);
+  background: linear-gradient(45deg, #2c7a73, #3f9b92); /* Reverse gradient on hover */
+}
+
+
+
+
+/* //motti ka lola */

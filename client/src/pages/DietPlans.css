@@ -1,0 +1,213 @@
+/* General Page Styling */
+.diet-plans {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+
+/* Title & Description */
+.diet-plans h1 {
+  font-size: 2.5rem;
+  color: #3f9b92;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.diet-plans p {
+  font-size: 1.1rem;
+  color: #b0bec5;
+  margin-bottom: 20px;
+}
+
+/* Selection Form */
+.selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  max-width: 600px;
+  margin: 0 auto 25px;
+}
+
+.selection label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3f9b92;
+}
+
+.selection select {
+  width: 200px;
+  padding: 8px;
+  font-size: 0.9rem;
+  border: 2px solid #3f9b92;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(38, 189, 149);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.selection select:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.selection select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0px 0px 8px rgba(76, 175, 80, 0.5);
+}
+
+/* Generate Plan Button */
+.selection button {
+  background: linear-gradient(45deg, #3f9b92, #2c7a73);
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, background 0.3s ease-in-out;
+  width: 150px;
+}
+
+.selection button:hover {
+  background: linear-gradient(45deg, #2c7a73, #3f9b92);
+  transform: scale(1.02);
+}
+
+/* Generated Plan Box */
+.generated-plan-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.generated-plan-box h2 {
+  color: #3f9b92;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.day-plan {
+  background: rgba(63, 155, 146, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
+
+.day-plan:hover {
+  transform: translateY(-2px);
+  background: rgba(63, 155, 146, 0.15);
+}
+
+.day-plan h4 {
+  color: #3f9b92;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.day-plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Fixed meal item styling */
+.day-plan li {
+  font-size: 0.9rem;
+  color: #ffffff;
+  padding: 8px 12px;
+  margin: 6px 0;
+  background: rgba(63, 155, 146, 0.2);
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  text-shadow: none;
+  -webkit-text-fill-color: initial;
+  display: inline-block;
+  width: auto;
+  min-width: 150px;
+}
+
+.day-plan li:hover {
+  background: rgba(63, 155, 146, 0.3);
+}
+
+/* Exercise List */
+.generated-plan-box h3 {
+  color: #3f9b92;
+  font-size: 1.2rem;
+  margin: 20px 0 10px;
+}
+
+.generated-plan-box ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Exercise items */
+.generated-plan-box > ul > li {
+  background: rgba(63, 155, 146, 0.2);
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  text-shadow: none;
+  -webkit-text-fill-color: initial;
+}
+
+/* Reset Button */
+.generated-plan-box button {
+  background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 20px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.generated-plan-box button:hover {
+  background: linear-gradient(45deg, #ff6b6b, #ff4d4d);
+  transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .generated-plan-box {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .selection select {
+    width: 180px;
+  }
+
+  .selection button {
+    width: 130px;
+  }
+  
+  .day-plan {
+    padding: 10px;
+  }
+  
+  .day-plan li {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+}

@@ -1,0 +1,144 @@
+.payment-container {
+  padding: 30px;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Payment Title */
+.payment-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3f9b92;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px rgba(63, 155, 146, 0.5);
+}
+
+/* Payment Subtitle */
+.payment-subheading {
+  font-size: 1rem;
+  color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+/* Order Summary */
+.order-summary {
+  max-width: 600px;  /* Reduced width */
+  margin: 0 auto;
+  background: rgba(15, 15, 15, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Order Summary Title */
+.order-summary-heading {
+  font-size: 1.5rem;
+  color: #3f9b92;
+  margin-bottom: 8px;
+}
+
+/* Order Items */
+.order-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-item {
+  background: rgba(63, 155, 146, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(63, 155, 146, 0.2);
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  font-size: 0.9rem;  /* Slightly smaller font */
+}
+
+/* Total Summary */
+.total-summary {
+  margin-top: 15px;
+}
+
+.total-summary div {
+  font-size: 1rem;
+  color: #e2e8f0;
+  margin: 4px 0;
+}
+
+/* Final Total */
+.final-total {
+  font-size: 1.3rem;
+  color: #3f9b92;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Payment Details Section */
+.payment-details {
+  margin-top: 30px;
+  max-width: 600px;  /* Reduced width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.payment-details-heading {
+  font-size: 1.5rem;
+  color: #3f9b92;
+  margin-bottom: 8px;
+}
+
+/* Payment Form Inputs */
+.payment-form input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  background-color: #1c1d1e;
+  color: white;
+  border: 1px solid #3f9b92;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Expiry Date Section */
+.payment-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-date div {
+  width: 48%;
+}
+
+/* Payment Submit Button */
+.payment-submit {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Pay Button */
+.pay-button {
+  background: linear-gradient(45deg, #3f9b92, #2c7a73);
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  transition: 0.3s ease;
+  border: none;
+  box-shadow: 0 3px 12px rgba(63, 155, 146, 0.2);
+}
+
+.pay-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(63, 155, 146, 0.4);
+  background: linear-gradient(45deg, #2c7a73, #3f9b92);
+}

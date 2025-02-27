@@ -1,0 +1,117 @@
+Existing styles remain the same
+.questionnaire-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.questionnaire-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.questionnaire-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.questionnaire-step {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #ff5733; /* Orange accent for focus */
+}
+
+textarea.input-field {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.next-btn, .generate-btn, .restart-btn {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.next-btn {
+  background-color: #ff5733; /* Orange for consistency */
+  color: white;
+}
+
+.generate-btn {
+  background-color: #22c55e;
+  color: white;
+}
+
+.restart-btn {
+  background-color: #6b7280;
+  color: white;
+}
+
+.next-btn:hover, .generate-btn:hover, .restart-btn:hover {
+  opacity: 0.9;
+}
+
+.recommendation {
+  text-align: center;
+}
+
+.recommendation-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+/* Chatbot Widget Styling (if customizable via CSS) */
+#chatbotkit-widget {
+  --ck-background: rgba(26, 26, 26, 0.95); /* Dark background */
+  --ck-text: #ffffff; /* White text */
+  --ck-accent: #ff5733; /* Orange accent */
+  --ck-border-radius: 8px; /* Rounded corners */
+}
+
+#chatbotkit-widget .ck-widget-button {
+  background-color: #ff5733; /* Orange button */
+  border-radius: 50%; /* Circular button */
+  box-shadow: 0 4px 10px rgba(255, 87, 51, 0.3);
+}
+
+#chatbotkit-widget .ck-widget-button:hover {
+  background-color: #e64d2e; /* Darker orange on hover */
+}
