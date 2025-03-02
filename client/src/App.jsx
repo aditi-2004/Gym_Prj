@@ -15,6 +15,7 @@ import FatToFitCourse from "./pages/FatToFitCourse"; // Adjust path as needed
 import JoinUs from "./pages/JoinUs";
 import Shop from "./pages/Shop";
 import Postures from "./pages/Postures";
+import Welcome from './pages/Welcome';
 // import FitnessPlanner from './pages/FitnessPlanner';
 // Adjust path as needed
 
@@ -23,7 +24,8 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
+      <Route exact path="/" component={Welcome} />
+        <Route exact path="/home" component={Home} />
         <Route path="/merchandise" component={Merchandise} />
         <Route path="/cart" component={Cart} />
         <Route path="/payment" component={Payment} />
