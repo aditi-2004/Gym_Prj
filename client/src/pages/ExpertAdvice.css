@@ -1,59 +1,77 @@
-/* General Styles for ExpertAdvice Page */
-/* .expert-advice {
-    background: linear-gradient(145deg, #f1f1f1, #dcdcdc);
-    padding: 40px;
-    font-family: 'Roboto', sans-serif;
+
+
+
+   /* General Styles for Expert Advice Page */
+   .expert-advice {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: white;
+    padding: 60px 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
   }
   
+  /* Header Section */
   .header {
-    text-align: center;
     margin-bottom: 50px;
   }
   
   .headline {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #2c3e50;
+    font-size: 3rem;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 2px;
-    transition: transform 0.5s ease-in-out;
+    color: #48bb78;
+    text-shadow: 0 0 10px rgba(72, 187, 120, 0.7);
+    animation: fadeIn 1.5s ease-in-out;
   }
   
   .header p {
-    font-size: 1.1rem;
-    color: #7f8c8d;
+    font-size: 1.2rem;
+    color: #b0bec5;
     margin-top: 10px;
   }
   
-
+  /* Advice Cards Section */
   .advice-section {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
   }
   
+  /* Advice Card Styles */
   .advice-card {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.08);
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+    padding: 25px;
     width: 30%;
+    min-height: 320px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
     opacity: 0;
     transform: translateY(50px);
-    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .advice-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(72, 187, 120, 0.5);
   }
   
   .advice-card h3 {
-    font-size: 1.5rem;
-    color: #2980b9;
-    font-weight: 600;
+    font-size: 1.8rem;
+    color: #48bb78;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 0 0 8px rgba(72, 187, 120, 0.7);
   }
   
   .advice-card p {
     font-size: 1rem;
-    color: #34495e;
+    color: #d4eaf2;
     line-height: 1.6;
     margin-top: 15px;
   }
@@ -66,31 +84,27 @@
   
   .advice-card li {
     margin: 10px 0;
+    font-size: 1rem;
+    color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   
   .advice-card li strong {
-    color: #16a085;
+    color: #3f9b92;
   }
   
-  .advice-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
-  }
-  
-  .advice-card:hover h3 {
-    color: #16a085;
-  }
-  
+  /* Resources Section */
   .expert-resources {
-    margin-top: 50px;
-    text-align: center;
+    margin-top: 60px;
   }
   
   .expert-resources h3 {
-    font-size: 1.8rem;
-    color: #2c3e50;
-    font-weight: 700;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #48bb78;
+    font-weight: 800;
+    text-shadow: 0 0 8px rgba(72, 187, 120, 0.7);
   }
   
   .expert-resources ul {
@@ -104,16 +118,33 @@
   
   .expert-resources a {
     text-decoration: none;
-    color: #2980b9;
-    font-size: 1.1rem;
-    transition: color 0.3s ease;
+    color: #4fc3f7;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
   }
   
   .expert-resources a:hover {
-    color: #16a085;
+    color: #48bb78;
+    text-shadow: 0 0 10px rgba(72, 187, 120, 0.7);
   }
   
-  @media (max-width: 768px) {
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .advice-card {
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  @media (max-width: 1024px) {
     .advice-section {
       flex-direction: column;
       align-items: center;
@@ -124,174 +155,17 @@
       margin-bottom: 20px;
     }
   }
-   */
-
-
-   /* General Styles for Expert Advice Page */
-.expert-advice {
-  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
-  color: white;
-  padding: 60px 20px;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-}
-
-/* Header Section */
-.header {
-  margin-bottom: 50px;
-}
-
-.headline {
-  font-size: 3rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #48bb78;
-  text-shadow: 0 0 10px rgba(72, 187, 120, 0.7);
-  animation: fadeIn 1.5s ease-in-out;
-}
-
-.header p {
-  font-size: 1.2rem;
-  color: #b0bec5;
-  margin-top: 10px;
-}
-
-/* Advice Cards Section */
-.advice-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-}
-
-/* Advice Card Styles */
-.advice-card {
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 15px;
-  padding: 25px;
-  width: 30%;
-  min-height: 320px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: all 0.3s ease-in-out;
-  opacity: 0;
-  transform: translateY(50px);
-}
-
-.advice-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(72, 187, 120, 0.5);
-}
-
-.advice-card h3 {
-  font-size: 1.8rem;
-  color: #48bb78;
-  font-weight: 700;
-  margin-bottom: 10px;
-  text-shadow: 0 0 8px rgba(72, 187, 120, 0.7);
-}
-
-.advice-card p {
-  font-size: 1rem;
-  color: #d4eaf2;
-  line-height: 1.6;
-  margin-top: 15px;
-}
-
-.advice-card ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 15px;
-}
-
-.advice-card li {
-  margin: 10px 0;
-  font-size: 1rem;
-  color: #f7f7f7;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.advice-card li strong {
-  color: #3f9b92;
-}
-
-/* Resources Section */
-.expert-resources {
-  margin-top: 60px;
-}
-
-.expert-resources h3 {
-  font-size: 2rem;
-  color: #48bb78;
-  font-weight: 800;
-  text-shadow: 0 0 8px rgba(72, 187, 120, 0.7);
-}
-
-.expert-resources ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.expert-resources li {
-  margin: 10px 0;
-}
-
-.expert-resources a {
-  text-decoration: none;
-  color: #4fc3f7;
-  font-size: 1.2rem;
-  transition: 0.3s ease-in-out;
-}
-
-.expert-resources a:hover {
-  color: #48bb78;
-  text-shadow: 0 0 10px rgba(72, 187, 120, 0.7);
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+  
+  @media (max-width: 768px) {
+    .headline {
+      font-size: 2.5rem;
+    }
+  
+    .header p {
+      font-size: 1rem;
+    }
+  
+    .advice-card {
+      width: 100%;
+    }
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.advice-card {
-  animation: fadeIn 1.5s ease-in-out forwards;
-}
-
-@media (max-width: 1024px) {
-  .advice-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .advice-card {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .headline {
-    font-size: 2.5rem;
-  }
-
-  .header p {
-    font-size: 1rem;
-  }
-
-  .advice-card {
-    width: 100%;
-  }
-}

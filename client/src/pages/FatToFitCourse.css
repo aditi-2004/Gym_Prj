@@ -1,26 +1,29 @@
-/* * {
+
+   /* src/pages/FatToFitCourse.css */
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
   body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Dark theme background */
     overflow-x: hidden;
+    color: #fff;
   }
   
   .fat-to-fit-container {
-    height: 100%;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
+  /* Intro Section */
   .intro-section {
-    background: #4CAF50;
-    color: white;
+    background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
+    color: #fff;
     padding: 120px 20px;
     text-align: center;
     width: 100%;
@@ -33,71 +36,115 @@
   
   .intro-header {
     font-size: 4rem;
-    opacity: 0;
+    font-weight: 900;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #fff, #ff5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 20px rgba(255, 87, 51, 0.7);
   }
   
   .intro-text {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-top: 20px;
-    opacity: 0;
+    color: #ccc;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .cta-button {
-    padding: 15px 30px;
-    font-size: 1.25rem;
-    background: #fff;
-    color: #4CAF50;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    background: #ff5733; /* Orange button */
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px; /* Rounded for modern look */
     cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(255, 87, 51, 0.4);
   }
   
   .cta-button:hover {
-    background-color: #45a049;
+    background-color: #e64d2e; /* Darker orange on hover */
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 87, 51, 0.6);
   }
   
-  .course-details {
+  /* Course Modules Section */
+  .course-modules {
+    background: #1a1a1a;
     padding: 60px 20px;
     width: 100%;
-    background: #fff;
-  }
-  
-  .course-section {
-    margin-bottom: 60px;
     text-align: center;
   }
   
-  .course-section h2 {
+  .course-title {
     font-size: 2.5rem;
-    color: #388e3c;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #fff, #ff5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(255, 87, 51, 0.5);
+  }
+  
+  .modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .course-module {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 87, 51, 0.2);
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .course-module:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(255, 87, 51, 0.4);
+  }
+  
+  .course-module h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #fff, #ff5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .course-module p {
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.6;
     margin-bottom: 20px;
   }
   
-  .course-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .course-image {
-    width: 80%;
+  .module-image {
+    width: 100%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
   
-  .course-content p {
-    font-size: 1.125rem;
-    color: #555;
-    line-height: 1.6;
-    max-width: 800px;
-  }
-  
+  /* Motivation Section */
   .motivation-section {
-    background: #e8f5e9;
+    background: #1a1a1a;
     padding: 60px 20px;
     text-align: center;
     width: 100%;
@@ -105,322 +152,113 @@
   
   .motivation-section h2 {
     font-size: 2.5rem;
-    color: #388e3c;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #fff, #ff5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .motivation-section p {
-    font-size: 1.25rem;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: #ccc;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .motivation-section ul {
     list-style: none;
     padding-left: 0;
+    max-width: 600px;
+    margin: 0 auto;
   }
   
   .motivation-section li {
-    font-size: 1.125rem;
-    color: #555;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
   }
   
+  .motivation-section li::before {
+    content: '✓';
+    color: #ff5733;
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+  }
+  
+  /* Call-to-Action Section */
   .cta-section {
-    background: #4CAF50;
-    color: white;
+    background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
+    color: #fff;
     padding: 80px 20px;
     text-align: center;
     width: 100%;
   }
   
-  .cta-button {
-    padding: 15px 30px;
-    font-size: 1.25rem;
-    background: #fff;
-    color: #4CAF50;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    transition: background-color 0.3s ease;
+  .cta-section h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #fff, #ff5733);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
-  .cta-button:hover {
-    background-color: #45a049;
+  .cta-section p {
+    font-size: 1.3rem;
+    color: #ccc;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
+  /* Responsive Design */
   @media (max-width: 768px) {
-    .course-content {
-      flex-direction: column;
+    .intro-header {
+      font-size: 2.5rem;
     }
   
-    .course-image {
+    .intro-text {
+      font-size: 1.2rem;
+    }
+  
+    .cta-button {
+      padding: 12px 30px;
+      font-size: 1.2rem;
+    }
+  
+    .course-title {
+      font-size: 2rem;
+    }
+  
+    .course-module h3 {
+      font-size: 1.5rem;
+    }
+  
+    .course-module p {
+      font-size: 1rem;
+    }
+  
+    .module-image {
       width: 90%;
     }
+  
+    .motivation-section h2, .cta-section h2 {
+      font-size: 2rem;
+    }
+  
+    .motivation-section p, .cta-section p {
+      font-size: 1.1rem;
+    }
+  
+    .motivation-section li {
+      font-size: 1rem;
+    }
   }
-   */
-
-
-   /* src/pages/FatToFitCourse.css */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #1a1a1a; /* Dark theme background */
-  overflow-x: hidden;
-  color: #fff;
-}
-
-.fat-to-fit-container {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Intro Section */
-.intro-section {
-  background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
-  color: #fff;
-  padding: 120px 20px;
-  text-align: center;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-}
-
-.intro-header {
-  font-size: 4rem;
-  font-weight: 900;
-  margin-bottom: 20px;
-  background: linear-gradient(45deg, #fff, #ff5733);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 20px rgba(255, 87, 51, 0.7);
-}
-
-.intro-text {
-  font-size: 1.5rem;
-  margin-top: 20px;
-  color: #ccc;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cta-button {
-  padding: 15px 40px;
-  font-size: 1.5rem;
-  background: #ff5733; /* Orange button */
-  color: #fff;
-  border: none;
-  border-radius: 30px; /* Rounded for modern look */
-  cursor: pointer;
-  margin-top: 30px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  box-shadow: 0 5px 15px rgba(255, 87, 51, 0.4);
-}
-
-.cta-button:hover {
-  background-color: #e64d2e; /* Darker orange on hover */
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255, 87, 51, 0.6);
-}
-
-/* Course Modules Section */
-.course-modules {
-  background: #1a1a1a;
-  padding: 60px 20px;
-  width: 100%;
-  text-align: center;
-}
-
-.course-title {
-  font-size: 2.5rem;
-  font-weight: 900;
-  color: #fff;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  background: linear-gradient(45deg, #fff, #ff5733);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 15px rgba(255, 87, 51, 0.5);
-}
-
-.modules-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.course-module {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 87, 51, 0.2);
-  border-radius: 15px;
-  padding: 30px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-.course-module:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 25px rgba(255, 87, 51, 0.4);
-}
-
-.course-module h3 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 15px;
-  background: linear-gradient(45deg, #fff, #ff5733);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.course-module p {
-  font-size: 1.1rem;
-  color: #ccc;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.module-image {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Motivation Section */
-.motivation-section {
-  background: #1a1a1a;
-  padding: 60px 20px;
-  text-align: center;
-  width: 100%;
-}
-
-.motivation-section h2 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  color: #fff;
-  margin-bottom: 20px;
-  background: linear-gradient(45deg, #fff, #ff5733);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.motivation-section p {
-  font-size: 1.3rem;
-  color: #ccc;
-  margin-bottom: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.motivation-section ul {
-  list-style: none;
-  padding-left: 0;
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.motivation-section li {
-  font-size: 1.1rem;
-  color: #fff;
-  margin-bottom: 15px;
-  position: relative;
-  padding-left: 20px;
-}
-
-.motivation-section li::before {
-  content: '✓';
-  color: #ff5733;
-  position: absolute;
-  left: 0;
-  font-size: 1rem;
-}
-
-/* Call-to-Action Section */
-.cta-section {
-  background: linear-gradient(135deg, #1a1a1a 0%, #0f0f0f 100%);
-  color: #fff;
-  padding: 80px 20px;
-  text-align: center;
-  width: 100%;
-}
-
-.cta-section h2 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  margin-bottom: 20px;
-  background: linear-gradient(45deg, #fff, #ff5733);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.cta-section p {
-  font-size: 1.3rem;
-  color: #ccc;
-  margin-bottom: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .intro-header {
-    font-size: 2.5rem;
-  }
-
-  .intro-text {
-    font-size: 1.2rem;
-  }
-
-  .cta-button {
-    padding: 12px 30px;
-    font-size: 1.2rem;
-  }
-
-  .course-title {
-    font-size: 2rem;
-  }
-
-  .course-module h3 {
-    font-size: 1.5rem;
-  }
-
-  .course-module p {
-    font-size: 1rem;
-  }
-
-  .module-image {
-    width: 90%;
-  }
-
-  .motivation-section h2, .cta-section h2 {
-    font-size: 2rem;
-  }
-
-  .motivation-section p, .cta-section p {
-    font-size: 1.1rem;
-  }
-
-  .motivation-section li {
-    font-size: 1rem;
-  }
-}
