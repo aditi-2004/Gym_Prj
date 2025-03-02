@@ -1,4 +1,4 @@
-.shop-container {
+/* .shop-container {
   background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
   color: white;
   padding: 60px 20px;
@@ -169,4 +169,190 @@
 
 .plus-sign:hover {
   color: #2c7a73;
+} */
+
+
+.shop-container {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.shop-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #3f9b92; /* Updated to match teal accent */
+  text-shadow: 0 0 10px rgba(63, 155, 146, 0.7); /* Updated to match teal accent */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.shop-subtitle {
+  font-size: 1.2rem;
+  color: #b0bec5;
+  margin-top: 10px;
+}
+
+.shop-products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.product-card {
+  background: rgba(15, 15, 15, 0.95); /* Updated to match dark theme */
+  border-radius: 15px;
+  padding: 20px;
+  width: 280px;
+  min-height: 350px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Updated shadow for dark theme */
+  border: 1px solid rgba(63, 155, 146, 0.1); /* Updated to match teal accent */
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(63, 155, 146, 0.5); /* Updated to match teal accent */
+}
+
+.product-image {
+  width: 100%;
+  height: 200px; /* Increased height for better visibility */
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 2px solid #3f9b92; /* Teal border for images */
+}
+
+.product-name {
+  font-size: 1.5rem;
+  color: #3f9b92; /* Updated to match teal accent */
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #e2e8f0; /* Updated to a lighter gray for readability on dark background */
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffcc00; /* Maintained gold color for price */
+  margin-bottom: 15px;
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(45deg, #3f9b92, #2c7a73); /* Updated to match teal gradient */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-to-cart:hover {
+  background: linear-gradient(45deg, #2c7a73, #3f9b92);
+  transform: scale(1.05);
+}
+
+.cart-link {
+  margin-top: 50px;
+}
+
+.cart-link-text {
+  font-size: 1.3rem;
+  color: #4fc3f7; /* Maintained for consistency, but can update to teal */
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.cart-link-text:hover {
+  color: #3f9b92; /* Updated to match teal accent */
+  text-shadow: 0 0 10px rgba(63, 155, 146, 0.7); /* Updated to match teal accent */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.product-card {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.loading, .error {
+  font-size: 1.5rem;
+  color: #e2e8f0;
+  padding: 20px;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white;
+}
+
+.plus-sign {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #3f9b92; /* Updated to match teal accent */
+}
+
+.plus-sign:hover {
+  color: #2c7a73; /* Updated to match darker teal */
+}
+
+@media (max-width: 1024px) {
+  .shop-products {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .product-card {
+      width: 80%;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shop-title {
+      font-size: 2.5rem;
+  }
+
+  .shop-subtitle {
+      font-size: 1rem;
+  }
+
+  .product-card {
+      width: 100%;
+  }
+
+  .product-image {
+      height: 150px; /* Reduced height for mobile */
+  }
 }

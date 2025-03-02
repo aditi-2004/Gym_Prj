@@ -23,9 +23,123 @@
   margin-bottom: 15px;
 }
 
+/* Checkout Grid Layout */
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Billing Address, Shipping/Payment, and Order Review Sections */
+.billing-address, .shipping-payment, .order-review {
+  background: rgba(15, 15, 15, 0.95);
+  padding: 15px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Section Headings */
+.section-heading {
+  font-size: 1.5rem;
+  color: #3f9b92;
+  margin-bottom: 8px;
+}
+
+/* Required Field Text */
+.required-field {
+  font-size: 0.8rem;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+/* Inputs and Selects */
+.billing-address input, .billing-address select, .shipping-payment input, .shipping-payment select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  background-color: #1c1d1e;
+  color: white;
+  border: 1px solid #3f9b92;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+/* Address Row for Region and Zip/Postal Code */
+.address-row {
+  display: flex;
+  gap: 10px;
+}
+
+.address-row select, .address-row input {
+  width: 100%;
+}
+
+/* Shipping and Payment Methods */
+.shipping-payment label, .payment-method label {
+  display: block;
+  margin: 8px 0;
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+.shipping-payment input[type="radio"], .payment-method input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* Promo Code Section */
+.promo-code {
+  margin-top: 15px;
+}
+
+.promo-code label {
+  font-size: 1rem;
+  color: #e2e8f0;
+}
+
+.promo-code input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  background-color: #1c1d1e;
+  color: white;
+  border: 1px solid #3f9b92;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.apply-btn {
+  background: linear-gradient(45deg, #3f9b92, #2c7a73);
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: white;
+  border: none;
+  box-shadow: 0 3px 12px rgba(63, 155, 146, 0.2);
+  transition: 0.3s ease;
+}
+
+.apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(63, 155, 146, 0.4);
+  background: linear-gradient(45deg, #2c7a73, #3f9b92);
+}
+
+/* PayPal Note */
+.paypal-note {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
 /* Order Summary */
 .order-summary {
-  max-width: 600px;  /* Reduced width */
+  max-width: 600px;
   margin: 0 auto;
   background: rgba(15, 15, 15, 0.95);
   padding: 15px;
@@ -59,7 +173,7 @@
   align-items: center;
   box-shadow: 0 3px 6px rgba(63, 155, 146, 0.2);
   border: 1px solid rgba(63, 155, 146, 0.1);
-  font-size: 0.9rem;  /* Slightly smaller font */
+  font-size: 0.9rem;
 }
 
 /* Total Summary */
@@ -81,50 +195,8 @@
   margin-top: 8px;
 }
 
-/* Payment Details Section */
-.payment-details {
-  margin-top: 30px;
-  max-width: 600px;  /* Reduced width */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.payment-details-heading {
-  font-size: 1.5rem;
-  color: #3f9b92;
-  margin-bottom: 8px;
-}
-
-/* Payment Form Inputs */
-.payment-form input {
-  width: 100%;
-  padding: 8px;
-  margin: 8px 0;
-  background-color: #1c1d1e;
-  color: white;
-  border: 1px solid #3f9b92;
-  border-radius: 5px;
-  font-size: 0.9rem;
-}
-
-/* Expiry Date Section */
-.payment-date {
-  display: flex;
-  justify-content: space-between;
-}
-
-.payment-date div {
-  width: 48%;
-}
-
-/* Payment Submit Button */
-.payment-submit {
-  margin-top: 15px;
-  text-align: center;
-}
-
-/* Pay Button */
-.pay-button {
+/* Process Order Button */
+.process-order-btn {
   background: linear-gradient(45deg, #3f9b92, #2c7a73);
   padding: 12px 25px;
   border-radius: 6px;
@@ -132,13 +204,34 @@
   cursor: pointer;
   color: white;
   width: 100%;
+  margin-top: 15px;
   transition: 0.3s ease;
   border: none;
   box-shadow: 0 3px 12px rgba(63, 155, 146, 0.2);
 }
 
-.pay-button:hover {
+.process-order-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(63, 155, 146, 0.4);
   background: linear-gradient(45deg, #2c7a73, #3f9b92);
+}
+
+/* Payment Logos */
+.payment-logos {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.payment-logo {
+  width: 50px;
+  height: auto;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff0000;
+  font-size: 0.9rem;
+  margin-top: 10px;
 }

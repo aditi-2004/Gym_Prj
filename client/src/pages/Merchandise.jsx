@@ -239,7 +239,7 @@ const products = [
     price: "Rs. 999.00",
     image: "/assets/images/shorts.png",
     sizes: ["S", "M", "L", "XL"],
-    colors: ["Black, White, Grey"],
+    colors: ["Black"],
     fit: "Relaxed Fit",
     category: "Limited Edition",
   },
