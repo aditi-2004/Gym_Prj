@@ -497,7 +497,7 @@ const Payment = () => {
         return acc + (price * (item.quantity || 1)); // Default quantity to 1 if not set
       }, 0);
 
-      const shippingCost = shippingMethod === 'standard' ? 500.00 : 700.00; // ₹500 for standard, ₹700 for express
+      const shippingCost = shippingMethod === 'standard' ? 100.00 : 150.00; // ₹500 for standard, ₹700 for express
       const tax = subtotal * 0.09; // Assuming 9% GST
       const finalTotal = (subtotal + shippingCost + tax - discount).toFixed(2);
       setPaymentTotal(finalTotal);
@@ -677,7 +677,7 @@ const Payment = () => {
                     checked={shippingMethod === 'standard'}
                     onChange={handleShippingChange}
                   />
-                  Standard Shipping ₹500.00
+                  Standard Shipping ₹100.00
                 </label>
                 <label>
                   <input
@@ -686,7 +686,7 @@ const Payment = () => {
                     checked={shippingMethod === 'express'}
                     onChange={handleShippingChange}
                   />
-                  Express Shipping ₹700.00
+                  Express Shipping ₹150.00
                 </label>
 
                 <div className="promo-code">
@@ -778,7 +778,7 @@ const Payment = () => {
                   }, 0).toFixed(2)}</span>
                 </div>
                 <div>
-                  <span>Shipping:</span> <span>₹{shippingMethod === 'standard' ? '500.00' : '700.00'}</span>
+                  <span>Shipping:</span> <span>₹{shippingMethod === 'standard' ? '100.00' : '150.00'}</span>
                 </div>
                 <div>
                   <span>Sales Tax:</span> <span>₹{((cartItems.reduce((acc, item) => {

@@ -470,7 +470,7 @@ const Home = () => {
   const [cartCount, setCartCount] = useState(0); // Track number of items in cart
   const history = useHistory(); // Use useHistory for react-router-dom v5
   const backgroundVideos = useMemo(() => [
-    '/assets/images/AdobeStock_306147114_Video_HD_Preview.mp4',
+    '/assets/images/homevideo.mp4',
     '/assets/images/AdobeStock_618060694_Video_HD_Preview.mp4'
   ], []); // Memoize backgroundVideos to prevent re-creation on every render
 
@@ -573,7 +573,7 @@ const Home = () => {
           </div>
           <motion.div className="content" initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.8 }}>
             <h2>"Look in the mirror. That's your competition"</h2>
-            {/* <h3>ABHISHEK DHIMAN</h3> */}
+            <h3>ABHISHEK DHIMAN</h3>
           </motion.div>
         </div>
         <div className="footer-up">

@@ -187,7 +187,7 @@ const PaymentConfirmation = () => {
   };
 
   const subtotal = calculateSubtotal();
-  const shippingCost = shippingMethod === 'standard' ? 500.00 : 700.00;
+  const shippingCost = shippingMethod === 'standard' ? 100.00 : 150.00;
   const tax = subtotal * 0.09; // 9% GST
   
   // Use the passed total if available, otherwise calculate it

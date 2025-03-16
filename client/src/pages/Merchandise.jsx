@@ -187,7 +187,7 @@ const products = [
     id: 1,
     name: "Dark Flex Oversize T-Shirt",
     price: "Rs. 1,299.00",
-    image: "/assets/images/merch1.png", // Update with your image path
+    image: "/assets/images/merch1.png",
     sizes: ["S", "M", "L", "XL", "XXL"],
     colors: ["Black"],
     fit: "Regular Fit",
@@ -239,7 +239,7 @@ const products = [
     price: "Rs. 999.00",
     image: "/assets/images/shorts.png",
     sizes: ["S", "M", "L", "XL"],
-    colors: ["Black"],
+    colors: ["Black", "White", "Grey"],
     fit: "Relaxed Fit",
     category: "Limited Edition",
   },
