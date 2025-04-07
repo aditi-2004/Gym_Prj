@@ -1,0 +1,730 @@
+{
+  "all": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Full Body Flow",
+        "exercises": [
+          {
+            "name": "Mountain Pose",
+            "duration": 5,
+            "pose": "Tadasana",
+            "image":"/assets/yoga-images/downward-dog.jpg",
+            "tip": "Engage your quads, rotate your thighs inward, and let your arms hang naturally."
+          },
+          {
+            "name": "Downward Facing Dog",
+            "duration": 7,
+            "pose": "Adho Mukha Svanasana",
+            "image":"/assets/yoga-images/downward-dog.jpg",
+            "tip": "Keep both toes pointed towards the front of your mat and sink your heels toward the floor."
+          },
+          {
+            "name": "Cobra Pose",
+            "duration": 6,
+            "pose": "Bhujangasana",
+            "image": "/assets/cobra-pose.jpg",
+            "tip": "Root into your feet and lift your chest without pressing too hard with your hands."
+          },
+          {
+            "name": "Tree Pose",
+            "duration": 5,
+            "pose": "Vrksasana",
+            "image": "/assets/tree-pose.jpg",
+            "tip": "Focus on a point ahead to maintain balance and engage your core."
+          }
+        ],
+        "meditation": {
+          "name": "Full Awareness",
+          "duration": 8,
+          "image": "/assets/full-awareness.jpg",
+          "tip": "Focus on your breath and body sensations."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Mixed Practice",
+        "exercises": [
+          {
+            "name": "Warrior II",
+            "duration": 7,
+            "pose": "Virabhadrasana II",
+            "image": "/assets/warrior-ii.jpg",
+            "tip": "Extend your arms fully and gaze over your front hand."
+          },
+          {
+            "name": "Seated Forward Bend",
+            "duration": 6,
+            "pose": "Paschimottanasana",
+            "image": "/assets/seated-forward-bend.jpg",
+            "tip": "Bend at your hips, not your waist, and keep your neck aligned."
+          },
+          {
+            "name": "Bridge Pose",
+            "duration": 6,
+            "pose": "Setu Bandha Sarvangasana",
+            "image": "/assets/bridge-pose.jpg",
+            "tip": "Root into your feet and lift your hips gently."
+          },
+          {
+            "name": "Child's Pose",
+            "duration": 5,
+            "pose": "Balasana",
+            "image": "/assets/childs-pose.jpg",
+            "tip": "Rest your forehead on the ground and breathe deeply."
+          }
+        ],
+        "meditation": {
+          "name": "Mindful Breathing",
+          "duration": 10,
+          "image": "/assets/mindful-breathing.jpg",
+          "tip": "Maintain a steady breath rhythm and relax your mind."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Complete Practice",
+        "exercises": [
+          {
+            "name": "Sun Salutation",
+            "duration": 10,
+            "pose": "Surya Namaskar",
+            "image": "/assets/sun-salutation.jpg",
+            "tip": "Flow smoothly with your breath, keeping movements coordinated."
+          },
+          {
+            "name": "Half Moon Pose",
+            "duration": 6,
+            "pose": "Ardha Chandrasana",
+            "image": "/assets/half-moon-pose.jpg",
+            "tip": "Keep your standing leg strong and gaze upward if comfortable."
+          },
+          {
+            "name": "Camel Pose",
+            "duration": 5,
+            "pose": "Ustrasana",
+            "image": "/assets/camel-pose.jpg",
+            "tip": "Lift your chest and avoid straining your neck."
+          },
+          {
+            "name": "Lotus Pose",
+            "duration": 5,
+            "pose": "Padmasana",
+            "image": "/assets/lotus-pose.jpg",
+            "tip": "Sit with a straight spine, using props if your hips are tight."
+          },
+          {
+            "name": "Corpse Pose",
+            "duration": 8,
+            "pose": "Savasana",
+            "image": "/assets/corpse-pose.jpg",
+            "tip": "Lie flat, relax completely, and focus on stillness."
+          }
+        ],
+        "meditation": {
+          "name": "Complete Relaxation",
+          "duration": 12,
+          "image": "/assets/complete-relaxation.jpg",
+          "tip": "Let go of all tension and rest deeply."
+        }
+      }
+    ]
+  },
+  "standing": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Standing Yoga Flow",
+        "exercises": [
+          {
+            "name": "Downward Facing Dog",
+            "duration": 10,
+            "pose": "Adho Mukha Svanasana",
+            "image": "/assets/downward-dog.jpg",
+            "tip": "Keep both toes pointed towards the front of your mat and sink your heels toward the floor."
+          },
+          {
+            "name": "Mountain Pose",
+            "duration": 5,
+            "pose": "Tadasana",
+            "image": "/assets/mountain-pose.jpg",
+            "tip": "Engage your quads, rotate your thighs inward, and let your arms hang naturally."
+          },
+          {
+            "name": "Warrior I",
+            "duration": 8,
+            "pose": "Virabhadrasana I",
+            "image": "/assets/warrior-i.jpg",
+            "tip": "Keep your back leg strong and your hips squared toward the front."
+          }
+        ],
+        "meditation": {
+          "name": "Relaxation Breathing",
+          "duration": 5,
+          "image": "/assets/relaxation-breathing.jpg",
+          "tip": "Breathe deeply and evenly, focusing on relaxing your shoulders."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Standing Strength",
+        "exercises": [
+          {
+            "name": "Warrior II",
+            "duration": 7,
+            "pose": "Virabhadrasana II",
+            "image": "/assets/warrior-ii.jpg",
+            "tip": "Extend your arms fully and gaze over your front hand."
+          },
+          {
+            "name": "Extended Side Angle",
+            "duration": 6,
+            "pose": "Utthita Parvakonasana",
+            "image": "/assets/extended-side-angle.jpg",
+            "tip": "Rest your forearm on your thigh to keep shoulders open."
+          },
+          {
+            "name": "Triangle Pose",
+            "duration": 6,
+            "pose": "Utthita Trikonasana",
+            "image": "/assets/triangle-pose.jpg",
+            "tip": "Micro-bend your knees if needed to ease hamstring tension."
+          }
+        ],
+        "meditation": {
+          "name": "Focused Breathing",
+          "duration": 6,
+          "image": "/assets/focused-breathing.jpg",
+          "tip": "Concentrate on your breath, counting each inhale and exhale."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Standing Balance",
+        "exercises": [
+          {
+            "name": "Reverse Warrior",
+            "duration": 6,
+            "pose": "Viparita Virabhadrasana",
+            "image": "/assets/reverse-warrior.jpg",
+            "tip": "Root into your front foot and engage your glutes."
+          },
+          {
+            "name": "Pyramid Pose",
+            "duration": 7,
+            "pose": "Parsvottanasana",
+            "image": "/assets/pyramid-pose.jpg",
+            "tip": "Use blocks to raise the floor if hamstrings are tight."
+          },
+          {
+            "name": "Raised Hands Pose",
+            "duration": 5,
+            "pose": "Urdhva Hastasana",
+            "image": "/assets/raised-hands-pose.jpg",
+            "tip": "Reach for the sky while rooting down with your feet."
+          }
+        ],
+        "meditation": {
+          "name": "Energy Centering",
+          "duration": 8,
+          "image": "/assets/energy-centering.jpg",
+          "tip": "Visualize energy flowing from your core outward."
+        }
+      }
+    ]
+  },
+  "balancing": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Balancing Focus",
+        "exercises": [
+          {
+            "name": "Tree Pose",
+            "duration": 7,
+            "pose": "Vrksasana",
+            "image": "/assets/tree-pose.jpg",
+            "tip": "Focus on a point ahead to maintain balance and engage your core."
+          },
+          {
+            "name": "Plank Pose",
+            "duration": 5,
+            "pose": "Plank",
+            "image": "/assets/plank-pose.jpg",
+            "tip": "Keep your hips and spine in a neutral position."
+          },
+          {
+            "name": "Eagle Pose",
+            "duration": 6,
+            "pose": "Garudasana",
+            "image": "/assets/eagle-pose.jpg",
+            "tip": "Wrap your arms and legs tightly and focus on a steady gaze."
+          }
+        ],
+        "meditation": {
+          "name": "Focus Breathing",
+          "duration": 6,
+          "image": "/assets/focus-breathing.jpg",
+          "tip": "Concentrate on your breath, counting each inhale and exhale."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Balance & Strength",
+        "exercises": [
+          {
+            "name": "Half Moon Pose",
+            "duration": 6,
+            "pose": "Ardha Chandrasana",
+            "image": "/assets/half-moon-pose.jpg",
+            "tip": "Keep your standing leg strong and gaze upward if comfortable."
+          },
+          {
+            "name": "Warrior III",
+            "duration": 7,
+            "pose": "Virabhadrasana III",
+            "image": "/assets/warrior-iii.jpg",
+            "tip": "Extend your back leg and arms while balancing on one leg."
+          },
+          {
+            "name": "Side Plank",
+            "duration": 5,
+            "pose": "Vasisthasana",
+            "image": "/assets/side-plank.jpg",
+            "tip": "Engage your core and keep your body in a straight line."
+          }
+        ],
+        "meditation": {
+          "name": "Grounding Meditation",
+          "duration": 8,
+          "image": "/assets/grounding-meditation.jpg",
+          "tip": "Feel rooted to the earth with each breath."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Advanced Balance",
+        "exercises": [
+          {
+            "name": "Dancer's Pose",
+            "duration": 8,
+            "pose": "Natarajasana",
+            "image": "/assets/dancers-pose.jpg",
+            "tip": "Hold your foot with one hand and reach forward with the other."
+          },
+          {
+            "name": "Crow Pose",
+            "duration": 5,
+            "pose": "Bakasana",
+            "image": "/assets/crow-pose.jpg",
+            "tip": "Shift your weight forward and lift your feet slowly."
+          },
+          {
+            "name": "Extended Hand-To-Big-Toe Pose",
+            "duration": 6,
+            "pose": "Utthita Hasta Padangusthasana",
+            "image": "/assets/extended-hand-toe-pose.jpg",
+            "tip": "Use a wall for support if balancing is challenging."
+          }
+        ],
+        "meditation": {
+          "name": "Mind Stability",
+          "duration": 7,
+          "image": "/assets/mind-stability.jpg",
+          "tip": "Center your mind with slow, deliberate breaths."
+        }
+      }
+    ]
+  },
+  "backbend": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Gentle Backbends",
+        "exercises": [
+          {
+            "name": "Cobra Pose",
+            "duration": 6,
+            "pose": "Bhujangasana",
+            "image": "/assets/cobra-pose.jpg",
+            "tip": "Root into your feet and lift your chest without pressing too hard with your hands."
+          },
+          {
+            "name": "Bridge Pose",
+            "duration": 8,
+            "pose": "Setu Bandha Sarvangasana",
+            "image": "/assets/bridge-pose.jpg",
+            "tip": "Root into your feet and lift your hips gently."
+          },
+          {
+            "name": "Sphinx Pose",
+            "duration": 5,
+            "pose": "Salamba Bhujangasana",
+            "image": "/assets/sphinx-pose.jpg",
+            "tip": "Keep your elbows under your shoulders and relax your lower back."
+          }
+        ],
+        "meditation": {
+          "name": "Stress Relief",
+          "duration": 7,
+          "image": "/assets/stress-relief.jpg",
+          "tip": "Focus on releasing tension with each exhale."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Intermediate Backbends",
+        "exercises": [
+          {
+            "name": "Camel Pose",
+            "duration": 7,
+            "pose": "Ustrasana",
+            "image": "/assets/camel-pose.jpg",
+            "tip": "Lift your chest and avoid straining your neck."
+          },
+          {
+            "name": "Upward Facing Dog",
+            "duration": 6,
+            "pose": "Urdhva Mukha Svanasana",
+            "image": "/assets/upward-dog-pose.jpg",
+            "tip": "Lift your chest and thighs off the ground, engaging your back."
+          },
+          {
+            "name": "Locust Pose",
+            "duration": 5,
+            "pose": "Salabhasana",
+            "image": "/assets/locust-pose.jpg",
+            "tip": "Lift your chest and legs simultaneously with a strong core."
+          }
+        ],
+        "meditation": {
+          "name": "Heart Opening",
+          "duration": 8,
+          "image": "/assets/heart-opening.jpg",
+          "tip": "Open your heart space with deep, loving breaths."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Deep Backbends",
+        "exercises": [
+          {
+            "name": "Wheel Pose",
+            "duration": 8,
+            "pose": "Urdhva Dhanurasana",
+            "image": "/assets/wheel-pose.jpg",
+            "tip": "Press evenly into your hands and feet to lift your body."
+          },
+          {
+            "name": "King Pigeon Pose",
+            "duration": 7,
+            "pose": "Raja Kapotasana",
+            "image": "/assets/king-pigeon-pose.jpg",
+            "tip": "Keep your hips square and deepen the backbend gradually."
+          },
+          {
+            "name": "Bow Pose",
+            "duration": 6,
+            "pose": "Dhanurasana",
+            "image": "/assets/bow-pose.jpg",
+            "tip": "Hold your ankles and lift your chest and thighs off the ground."
+          }
+        ],
+        "meditation": {
+          "name": "Energy Circulation",
+          "duration": 9,
+          "image": "/assets/energy-circulation.jpg",
+          "tip": "Imagine energy flowing through your spine with each breath."
+        }
+      }
+    ]
+  },
+  "seated": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Basic Seated Poses",
+        "exercises": [
+          {
+            "name": "Easy Pose",
+            "duration": 5,
+            "pose": "Sukhasana",
+            "image": "/assets/easy-pose.jpg",
+            "tip": "Sit cross-legged with props under your hips if needed."
+          },
+          {
+            "name": "Seated Forward Bend",
+            "duration": 7,
+            "pose": "Paschimottanasana",
+            "image": "/assets/seated-forward-bend.jpg",
+            "tip": "Bend at your hips, not your waist, and keep your neck aligned."
+          },
+          {
+            "name": "Butterfly Pose",
+            "duration": 6,
+            "pose": "Baddha Konasana",
+            "image": "/assets/butterfly-pose.jpg",
+            "tip": "Let gravity stretch your inner thighs, using blocks under knees if high."
+          }
+        ],
+        "meditation": {
+          "name": "Breath Awareness",
+          "duration": 8,
+          "image": "/assets/breath-awareness.jpg",
+          "tip": "Focus on the rhythm of your breath."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Hip Opening",
+        "exercises": [
+          {
+            "name": "Half Lord of the Fishes",
+            "duration": 8,
+            "pose": "Ardha Matsyendrasana",
+            "image": "/assets/half-lord-fishes.jpg",
+            "tip": "Extend your bottom leg if bending it behind is uncomfortable."
+          },
+          {
+            "name": "Cow Face Pose",
+            "duration": 6,
+            "pose": "Gomukhasana",
+            "image": "/assets/cow-face-pose.jpg",
+            "tip": "Stack your knees and reach your arms to clasp hands."
+          },
+          {
+            "name": "Wide-Angle Seated Forward Bend",
+            "duration": 7,
+            "pose": "Upavistha Konasana",
+            "image": "/assets/wide-angle-seated-bend.jpg",
+            "tip": "Keep your back flat and rotate your pelvis forward."
+          }
+        ],
+        "meditation": {
+          "name": "Deep Relaxation",
+          "duration": 10,
+          "image": "/assets/deep-relaxation.jpg",
+          "tip": "Let your body sink into a calm state with slow breaths."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Advanced Seated Poses",
+        "exercises": [
+          {
+            "name": "Lotus Pose",
+            "duration": 6,
+            "pose": "Padmasana",
+            "image": "/assets/lotus-pose.jpg",
+            "tip": "Sit with a straight spine, using props if your hips are tight."
+          },
+          {
+            "name": "Sage Marichi Pose I",
+            "duration": 7,
+            "pose": "Marichyasana I",
+            "image": "/assets/sage-marichi-pose.jpg",
+            "tip": "Twist gently and keep your spine elongated."
+          },
+          {
+            "name": "Seated Side Bend",
+            "duration": 5,
+            "pose": "Parsva Sukhasana",
+            "image": "/assets/seated-side-bend.jpg",
+            "tip": "Extend your arm overhead and lean to the side with control."
+          }
+        ],
+        "meditation": {
+          "name": "Mind-Body Connection",
+          "duration": 12,
+          "image": "/assets/mind-body-connection.jpg",
+          "tip": "Connect your breath with your movements for harmony."
+        }
+      }
+    ]
+  },
+  "resting": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Restorative Rest",
+        "exercises": [
+          {
+            "name": "Corpse Pose",
+            "duration": 10,
+            "pose": "Savasana",
+            "image": "/assets/corpse-pose.jpg",
+            "tip": "Lie flat, relax completely, and focus on stillness."
+          },
+          {
+            "name": "Child's Pose",
+            "duration": 8,
+            "pose": "Balasana",
+            "image": "/assets/childs-pose.jpg",
+            "tip": "Rest your forehead on the ground and breathe deeply."
+          },
+          {
+            "name": "Legs Up The Wall",
+            "duration": 7,
+            "pose": "Viparita Karani",
+            "image": "/assets/legs-up-wall.jpg",
+            "tip": "Keep your legs relaxed against the wall."
+          }
+        ],
+        "meditation": {
+          "name": "Body Scan Relaxation",
+          "duration": 12,
+          "image": "/assets/body-scan.jpg",
+          "tip": "Scan your body from head to toe, releasing tension."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Gentle Recovery",
+        "exercises": [
+          {
+            "name": "Reclined Bound Angle",
+            "duration": 8,
+            "pose": "Supta Baddha Konasana",
+            "image": "/assets/reclined-bound-angle.jpg",
+            "tip": "Support your knees with blocks if they lift too high."
+          },
+          {
+            "name": "Reclined Spinal Twist",
+            "duration": 7,
+            "pose": "Supta Matsyendrasana",
+            "image": "/assets/reclined-spinal-twist.jpg",
+            "tip": "Keep your shoulders grounded as you twist."
+          },
+          {
+            "name": "Happy Baby Pose",
+            "duration": 6,
+            "pose": "Ananda Balasana",
+            "image": "/assets/happy-baby-pose.jpg",
+            "tip": "Gently pull your knees toward your armpits without lifting your tailbone."
+          }
+        ],
+        "meditation": {
+          "name": "Stress Release",
+          "duration": 10,
+          "image": "/assets/stress-release.jpg",
+          "tip": "Release stress with each slow exhale."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Deep Restoration",
+        "exercises": [
+          {
+            "name": "Supported Bridge Pose",
+            "duration": 7,
+            "pose": "Supported Setu Bandha Sarvangasana",
+            "image": "/assets/supported-bridge-pose.jpg",
+            "tip": "Use a block under your sacrum for support."
+          },
+          {
+            "name": "Supported Fish Pose",
+            "duration": 8,
+            "pose": "Supported Matsyasana",
+            "image": "/assets/supported-fish-pose.jpg",
+            "tip": "Place a block under your upper back to open your chest."
+          },
+          {
+            "name": "Extended Corpse Pose",
+            "duration": 12,
+            "pose": "Extended Savasana",
+            "image": "/assets/extended-corpse-pose.jpg",
+            "tip": "Extend your arms and legs fully for deeper relaxation."
+          }
+        ],
+        "meditation": {
+          "name": "Deep Recovery",
+          "duration": 15,
+          "image": "/assets/deep-recovery.jpg",
+          "tip": "Visualize healing energy restoring your body."
+        }
+      }
+    ]
+  },
+  "focus relief relaxation": {
+    "plan": [
+      {
+        "day": 1,
+        "title": "Day 1: Focus & Relief",
+        "exercises": [
+          {
+            "name": "Easy Pose",
+            "duration": 5,
+            "pose": "Sukhasana",
+            "image": "/assets/easy-pose.jpg",
+            "tip": "Sit cross-legged with props under your hips if needed."
+          },
+          {
+            "name": "Child's Pose",
+            "duration": 8,
+            "pose": "Balasana",
+            "image": "/assets/childs-pose.jpg",
+            "tip": "Rest your forehead on the ground and breathe deeply."
+          }
+        ],
+        "meditation": {
+          "name": "Mindful Relaxation",
+          "duration": 10,
+          "image": "/assets/mindful-relaxation.jpg",
+          "tip": "Focus on calming thoughts and deep breaths."
+        }
+      },
+      {
+        "day": 2,
+        "title": "Day 2: Stress Relief Focus",
+        "exercises": [
+          {
+            "name": "Corpse Pose",
+            "duration": 10,
+            "pose": "Savasana",
+            "image": "/assets/corpse-pose.jpg",
+            "tip": "Lie flat, relax completely, and focus on stillness."
+          },
+          {
+            "name": "Legs Up The Wall",
+            "duration": 7,
+            "pose": "Viparita Karani",
+            "image": "/assets/legs-up-wall.jpg",
+            "tip": "Keep your legs relaxed against the wall."
+          }
+        ],
+        "meditation": {
+          "name": "Deep Calm",
+          "duration": 12,
+          "image": "/assets/deep-calm.jpg",
+          "tip": "Let your mind settle with each breath cycle."
+        }
+      },
+      {
+        "day": 3,
+        "title": "Day 3: Enhanced Focus",
+        "exercises": [
+          {
+            "name": "Seated Forward Bend",
+            "duration": 7,
+            "pose": "Paschimottanasana",
+            "image": "/assets/seated-forward-bend.jpg",
+            "tip": "Bend at your hips, not your waist, and keep your neck aligned."
+          },
+          {
+            "name": "Butterfly Pose",
+            "duration": 6,
+            "pose": "Baddha Konasana",
+            "image": "/assets/butterfly-pose.jpg",
+            "tip": "Let gravity stretch your inner thighs, using blocks under knees if high."
+          }
+        ],
+        "meditation": {
+          "name": "Focused Relief",
+          "duration": 10,
+          "image": "/assets/focused-relief.jpg",
+          "tip": "Direct your attention to a single point of focus."
+        }
+      }
+    ]
+  }
+}

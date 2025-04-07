@@ -17,6 +17,7 @@ import Shop from "./pages/Shop";
 import Postures from "./pages/Postures";
 import Welcome from './pages/Welcome';
 import PaymentConfirmation from './pages/PaymentConfirmation';
+import YogaMeditation from './pages/YogaMeditation';
 // import FitnessPlanner from './pages/FitnessPlanner';
 // Adjust path as needed
 
@@ -42,6 +43,7 @@ const App = () => {
         <Route path="/shop" component={Shop} />
         <Route path="/postures" component={Postures} />
         <Route path="/payment-confirmation" component={PaymentConfirmation} />
+        <Route path="/yoga-meditation" component={YogaMeditation} />
         {/* <Route path="/FitnessPlanner" component={FitnessPlanner} /> */}
       </Switch>
     </Router>
