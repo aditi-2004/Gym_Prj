@@ -1,0 +1,43 @@
+[
+    {
+      "keywords": ["membership", "join", "subscribe"],
+      "response": "To subscribe or manage your membership, go to the Membership section on the home page. We offer Monthly, Quarterly, and Annual plans."
+    },
+    {
+      "keywords": ["cancel", "renew", "billing"],
+      "response": "You can cancel or renew your subscription anytime from your Profile > Membership settings. Billing cycles depend on the plan selected."
+    },
+    {
+      "keywords": ["trainer", "coach", "schedule"],
+      "response": "Our certified trainers are available across different time slots. You can check the schedule in the Trainers section."
+    },
+    {
+      "keywords": ["diet", "meal plan", "nutrition"],
+      "response": "We offer personalized diet plans based on your goals. Go to Diet Plans under your dashboard to access yours."
+    },
+    {
+      "keywords": ["workout", "exercise", "plan"],
+      "response": "For a customized workout plan, visit the Workout tab. We offer beginner to advanced routines including full-body, push-pull-legs, and more."
+    },
+    {
+      "keywords": ["yoga", "poses", "asana"],
+      "response": "Our Yoga section includes poses like Tadasana, Cobra, and Downward Dog with descriptions and benefits. Great for stress, strength, and flexibility."
+    },
+    {
+      "keywords": ["breathing", "pranayama"],
+      "response": "Breathing exercises like Anulom-Vilom and Bhramari help in stress relief and improving focus. Find them under the Yoga > Breathing section."
+    },
+    {
+      "keywords": ["shop", "store", "merchandise"],
+      "response": "You can browse fitness apparel, whey, yoga mats, and more in our Shop section. Offers and delivery timelines are mentioned there."
+    },
+    {
+      "keywords": ["posture", "correction"],
+      "response": "Our AI-powered posture correction tool helps guide your form during workouts and yoga. Accessible from the dashboard."
+    },
+    {
+      "keywords": ["refund", "return"],
+      "response": "For refund or return issues, go to Support > Orders. Our policy allows returns within 7 days for eligible items."
+    }
+  ]
+  

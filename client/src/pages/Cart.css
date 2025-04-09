@@ -1,3 +1,181 @@
+/* .cart-container {
+  padding: 40px;
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: center;
+}
+
+.cart-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #3f9b92;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(63, 155, 146, 0.5);
+}
+
+.empty-cart-text {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+.cart-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(15, 15, 15, 0.95);
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.cart-items-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: rgba(31, 41, 55, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(63, 155, 146, 0.2);
+  border: 2px solid #3f9b92;
+  overflow: hidden;
+}
+
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 2px solid #3f9b92;
+}
+
+.cart-item-details {
+  text-align: left;
+  flex: 1;
+  color: #fff;
+}
+
+.item-name {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  color: #3f9b92;
+  font-weight: bold;
+}
+
+.cart-item-details p {
+  font-size: 1.1rem;
+  margin: 3px 0;
+  color: #e2e8f0;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #3f9b92;
+  font-size: 1.2rem;
+}
+
+.cart-summary {
+  background: rgba(15, 15, 15, 0.95);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  color: white;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(63, 155, 146, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.summary-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #3f9b92;
+  margin-bottom: 10px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #e2e8f0;
+}
+
+.total-price {
+  color: #3f9b92;
+  font-size: 1.8rem;
+}
+
+.checkout-btn {
+  background: linear-gradient(45deg, #3f9b92, #2c7a73);
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  transition: 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 15px rgba(63, 155, 146, 0.2);
+}
+
+.checkout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(63, 155, 146, 0.4);
+  background: linear-gradient(45deg, #2c7a73, #3f9b92);
+}
+
+@media (max-width: 768px) {
+  .cart-container {
+    padding: 20px;
+  }
+
+  .cart-title {
+    font-size: 2rem;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cart-item-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .cart-item-details {
+    text-align: center;
+  }
+
+  .cart-summary {
+    padding: 15px;
+  }
+
+  .summary-title,
+  .cart-total,
+  .total-price,
+  .checkout-btn {
+    font-size: 1.1rem;
+  }
+
+  .checkout-btn {
+    padding: 12px 24px;
+  }
+} */
+
+
 /* Cart Page Container */
 .cart-container {
   padding: 40px;
@@ -181,5 +359,73 @@
 
   .checkout-btn {
     padding: 12px 24px;
+  }
+}
+
+
+/* Existing styles remain the same until Cart Items, then modify: */
+
+/* Cart Items */
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: rgba(31, 41, 55, 0.9);
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(63, 155, 146, 0.2);
+  border: 2px solid #3f9b92;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.delete-btn:hover {
+  background: linear-gradient(45deg, #ff6b6b, #ff4d4d);
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cart-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .cart-item-image {
+    margin-bottom: 10px;
+  }
+
+  .cart-item-details {
+    text-align: center;
+  }
+
+  .delete-btn {
+    position: static;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
   }
 }

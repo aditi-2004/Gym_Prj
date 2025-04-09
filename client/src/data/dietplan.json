@@ -1,0 +1,404 @@
+[
+    {
+      "gender": "male",
+      "goal": "Build Muscle",
+      "description": "High-protein meals optimized for male muscle growth.",
+      "dailyMeals": [
+        {
+          "meal1": "Large Bowl of Oatmeal + 3 Eggs + Protein Shake (40g)",
+          "meal2": "8oz Chicken Breast + 2 cups Brown Rice + Vegetables",
+          "meal3": "Post-Workout Protein Shake (50g) + Banana",
+          "meal4": "8oz Lean Beef + Sweet Potato + Broccoli",
+          "meal5": "2 cups Greek Yogurt + 1oz Almonds + Honey",
+          "meal6": "6oz Cottage Cheese + 2 tbsp Peanut Butter + Casein Protein"
+        },
+        {
+          "meal1": "6 Scrambled Eggs + Whole Grain Toast + Avocado",
+          "meal2": "8oz Turkey + 1.5 cups Quinoa + Mixed Vegetables",
+          "meal3": "50g Whey Protein + Large Apple + 2oz Mixed Nuts",
+          "meal4": "8oz Salmon + 2 cups Brown Rice + Asparagus",
+          "meal5": "Large Protein Smoothie + 2oz Granola",
+          "meal6": "8oz Greek Yogurt + 40g Casein Protein + Nuts"
+        },
+        {
+          "meal1": "Omelette with Spinach + 2 Slices Whole Grain Bread",
+          "meal2": "8oz Chicken Thighs + Couscous + Steamed Veggies",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "8oz Cod + Mashed Sweet Potato + Green Beans",
+          "meal5": "Greek Yogurt Parfait with Berries and Honey",
+          "meal6": "Casein Shake + 1oz Walnuts"
+        },
+        {
+          "meal1": "Pancakes with Egg Whites + Syrup + Blueberries",
+          "meal2": "8oz Ground Turkey + Quinoa Salad",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "8oz Pork Chops + Roasted Potatoes + Asparagus",
+          "meal5": "Cottage Cheese with Pineapple",
+          "meal6": "Almond Butter + Rice Cake"
+        },
+        {
+          "meal1": "Egg White Omelette + Avocado Toast",
+          "meal2": "8oz Chicken Breast + Lentils + Mixed Greens",
+          "meal3": "Protein Smoothie + 1 Orange",
+          "meal4": "8oz Steak + Baked Potato + Broccoli",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Protein Pudding + 1oz Almonds"
+        },
+        {
+          "meal1": "Scrambled Eggs + Oatmeal + Berries",
+          "meal2": "8oz Salmon + Wild Rice + Steamed Carrots",
+          "meal3": "Protein Bar + 1 Pear",
+          "meal4": "8oz Bison + Quinoa + Kale",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Casein Shake + 1oz Cashews"
+        },
+        {
+          "meal1": "3 Eggs + Whole Grain Toast + Avocado",
+          "meal2": "8oz Turkey Breast + Sweet Potato + Green Beans",
+          "meal3": "Protein Shake + 1 Banana",
+          "meal4": "8oz Chicken Thighs + Couscous + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        }
+      ],
+      "exercises": ["Heavy Weight Training", "Compound Lifts", "Progressive Overload"],
+      "weightCategory": ["Lower (40-60 kg)", "Moderate 1 (60-80 kg)", "Moderate 2 (80-100 kg)", "Higher (100+ kg)"],
+      "heightCategory": ["Lower (140-160 cm)", "Moderate 1 (160-175 cm)", "Moderate 2 (175-190 cm)", "Higher (190+ cm)"],
+      "ageRanges": [20, 25, 30, 35]
+    },
+    {
+      "gender": "male",
+      "goal": "Lose Weight",
+      "description": "Calorie-controlled meals for male fat loss while preserving muscle.",
+      "dailyMeals": [
+        {
+          "meal1": "4 Egg Whites + 1 Whole Egg + Oatmeal",
+          "meal2": "6oz Chicken Breast + Large Green Salad + 1tbsp Olive Oil",
+          "meal3": "Whey Protein Shake + Apple + Small Handful Almonds",
+          "meal4": "6oz White Fish + Quinoa + Roasted Vegetables",
+          "meal5": "1 cup Greek Yogurt + Berries",
+          "meal6": "5oz Turkey Breast + Vegetables"
+        },
+        {
+          "meal1": "3 Egg Whites + Oatmeal + Berries",
+          "meal2": "5oz Chicken Breast + Mixed Greens + 1tsp Olive Oil",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "5oz Tilapia + Couscous + Steamed Veggies",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Turkey Wrap with Lettuce"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "5oz Turkey Breast + Quinoa + Mixed Veggies",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "5oz Cod + Sweet Potato + Green Beans",
+          "meal5": "Cottage Cheese with Pineapple",
+          "meal6": "Casein Shake + 1oz Almonds"
+        },
+        {
+          "meal1": "Pancakes with Egg Whites + Syrup + Berries",
+          "meal2": "5oz Ground Turkey + Salad",
+          "meal3": "Protein Shake + 1 Orange",
+          "meal4": "5oz Pork Chops + Roasted Potatoes + Asparagus",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Almond Butter + Rice Cake"
+        },
+        {
+          "meal1": "Egg White Omelette + Avocado Toast",
+          "meal2": "5oz Chicken Breast + Lentils + Mixed Greens",
+          "meal3": "Protein Smoothie + 1 Pear",
+          "meal4": "5oz Steak + Baked Potato + Broccoli",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Casein Shake + 1oz Cashews"
+        },
+        {
+          "meal1": "Scrambled Eggs + Oatmeal + Berries",
+          "meal2": "5oz Salmon + Wild Rice + Steamed Carrots",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "5oz Bison + Quinoa + Kale",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "3 Egg Whites + Whole Grain Toast + Avocado",
+          "meal2": "5oz Turkey Breast + Sweet Potato + Green Beans",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "5oz Chicken Thighs + Couscous + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        }
+      ],
+      "exercises": ["HIIT", "Weight Training", "Cardio"],
+      "weightCategory": ["Lower (40-60 kg)", "Moderate 1 (60-80 kg)", "Moderate 2 (80-100 kg)", "Higher (100+ kg)"],
+      "heightCategory": ["Lower (140-160 cm)", "Moderate 1 (160-175 cm)", "Moderate 2 (175-190 cm)", "Higher (190+ cm)"],
+      "ageRanges": [20, 25, 28, 32]
+    },
+    {
+      "gender": "male",
+      "goal": "Maintain Weight",
+      "description": "Balanced meals to maintain weight and support overall health.",
+      "dailyMeals": [
+        {
+          "meal1": "3 Eggs + Whole Grain Toast + Avocado",
+          "meal2": "6oz Chicken Breast + Brown Rice + Vegetables",
+          "meal3": "Protein Shake + 1 Banana",
+          "meal4": "6oz Salmon + Quinoa + Asparagus",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "6oz Turkey Breast + Couscous + Mixed Veggies",
+          "meal3": "Protein Bar + 1 Apple",
+          "meal4": "6oz Cod + Sweet Potato + Green Beans",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Casein Shake + 1oz Almonds"
+        },
+        {
+          "meal1": "Pancakes with Egg Whites + Syrup + Berries",
+          "meal2": "6oz Ground Turkey + Salad",
+          "meal3": "Protein Shake + 1 Orange",
+          "meal4": "6oz Pork Chops + Roasted Potatoes + Asparagus",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Almond Butter + Rice Cake"
+        },
+        {
+          "meal1": "Egg White Omelette + Avocado Toast",
+          "meal2": "6oz Chicken Breast + Lentils + Mixed Greens",
+          "meal3": "Protein Smoothie + 1 Pear",
+          "meal4": "6oz Steak + Baked Potato + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Casein Shake + 1oz Cashews"
+        },
+        {
+          "meal1": "Scrambled Eggs + Oatmeal + Berries",
+          "meal2": "6oz Salmon + Wild Rice + Steamed Carrots",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "6oz Bison + Quinoa + Kale",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "3 Egg Whites + Whole Grain Toast + Avocado",
+          "meal2": "6oz Turkey Breast + Sweet Potato + Green Beans",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "6oz Chicken Thighs + Couscous + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "6oz Chicken Breast + Brown Rice + Vegetables",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "6oz Salmon + Quinoa + Asparagus",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Casein Shake + 1oz Almonds"
+        }
+      ],
+      "exercises": ["Moderate Weight Training", "Cardio", "Flexibility Exercises"],
+      "weightCategory": ["Lower (40-60 kg)", "Moderate 1 (60-80 kg)", "Moderate 2 (80-100 kg)", "Higher (100+ kg)"],
+      "heightCategory": ["Lower (140-160 cm)", "Moderate 1 (160-175 cm)", "Moderate 2 (175-190 cm)", "Higher (190+ cm)"],
+      "ageRanges": [20, 25, 30, 32]
+    },
+    {
+      "gender": "female",
+      "goal": "Build Muscle",
+      "description": "Balanced protein meals for female muscle development.",
+      "dailyMeals": [
+        {
+          "meal1": "Medium Bowl of Oatmeal + 2 Eggs + Protein Shake (25g)",
+          "meal2": "6oz Chicken Breast + 1.5 cups Brown Rice + Vegetables",
+          "meal3": "Post-Workout Protein Shake (30g) + Banana",
+          "meal4": "6oz Lean Fish + Sweet Potato + Greens",
+          "meal5": "1.5 cups Greek Yogurt + 0.5oz Almonds",
+          "meal6": "4oz Cottage Cheese + 1 tbsp Peanut Butter + Protein"
+        },
+        {
+          "meal1": "4 Scrambled Eggs + Toast + 1/4 Avocado",
+          "meal2": "6oz Turkey + 1 cup Quinoa + Mixed Vegetables",
+          "meal3": "30g Whey Protein + Apple + 1oz Mixed Nuts",
+          "meal4": "6oz Salmon + 1.5 cups Brown Rice + Asparagus",
+          "meal5": "Medium Protein Smoothie + 1oz Granola",
+          "meal6": "6oz Greek Yogurt + 25g Casein Protein"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "6oz Chicken Thighs + Couscous + Steamed Veggies",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "6oz Cod + Mashed Sweet Potato + Green Beans",
+          "meal5": "Greek Yogurt Parfait with Berries and Honey",
+          "meal6": "Casein Shake + 1oz Walnuts"
+        },
+        {
+          "meal1": "Pancakes with Egg Whites + Syrup + Blueberries",
+          "meal2": "6oz Ground Turkey + Quinoa Salad",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "6oz Pork Chops + Roasted Potatoes + Asparagus",
+          "meal5": "Cottage Cheese with Pineapple",
+          "meal6": "Almond Butter + Rice Cake"
+        },
+        {
+          "meal1": "Egg White Omelette + Avocado Toast",
+          "meal2": "6oz Chicken Breast + Lentils + Mixed Greens",
+          "meal3": "Protein Smoothie + 1 Orange",
+          "meal4": "6oz Steak + Baked Potato + Broccoli",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Protein Pudding + 1oz Almonds"
+        },
+        {
+          "meal1": "Scrambled Eggs + Oatmeal + Berries",
+          "meal2": "6oz Salmon + Wild Rice + Steamed Carrots",
+          "meal3": "Protein Bar + 1 Pear",
+          "meal4": "6oz Bison + Quinoa + Kale",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Casein Shake + 1oz Cashews"
+        },
+        {
+          "meal1": "3 Eggs + Whole Grain Toast + Avocado",
+          "meal2": "6oz Turkey Breast + Sweet Potato + Green Beans",
+          "meal3": "Protein Shake + 1 Banana",
+          "meal4": "6oz Chicken Thighs + Couscous + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        }
+      ],
+      "exercises": ["Resistance Training", "Compound Exercises", "Progressive Overload"],
+      "weightCategory": ["Lower (40-60 kg)", "Moderate 1 (60-80 kg)", "Moderate 2 (80-100 kg)", "Higher (100+ kg)"],
+      "heightCategory": ["Lower (140-160 cm)", "Moderate 1 (160-175 cm)", "Moderate 2 (175-190 cm)", "Higher (190+ cm)"],
+      "ageRanges": [20, 24, 27, 30]
+    },
+    {
+      "gender": "female",
+      "goal": "Lose Weight",
+      "description": "Nutrient-dense, calorie-controlled meals for female fat loss.",
+      "dailyMeals": [
+        {
+          "meal1": "3 Egg Whites + 1 Whole Egg + Small Bowl Oatmeal",
+          "meal2": "5oz Chicken Breast + Green Salad + 1tsp Olive Oil",
+          "meal3": "Protein Shake + Small Apple + 10 Almonds",
+          "meal4": "5oz White Fish + Quinoa + Vegetables",
+          "meal5": "3/4 cup Greek Yogurt + Berries",
+          "meal6": "4oz Turkey Breast + Vegetables"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "5oz Turkey Breast + Quinoa + Mixed Veggies",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "5oz Cod + Sweet Potato + Green Beans",
+          "meal5": "Cottage Cheese with Pineapple",
+          "meal6": "Casein Shake + 1oz Almonds"
+        },
+        {
+          "meal1": "Pancakes with Egg Whites + Syrup + Berries",
+          "meal2": "5oz Ground Turkey + Salad",
+          "meal3": "Protein Shake + 1 Orange",
+          "meal4": "5oz Pork Chops + Roasted Potatoes + Asparagus",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Almond Butter + Rice Cake"
+        },
+        {
+          "meal1": "Egg White Omelette + Avocado Toast",
+          "meal2": "5oz Chicken Breast + Lentils + Mixed Greens",
+          "meal3": "Protein Smoothie + 1 Pear",
+          "meal4": "5oz Steak + Baked Potato + Broccoli",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Casein Shake + 1oz Cashews"
+        },
+        {
+          "meal1": "Scrambled Eggs + Oatmeal + Berries",
+          "meal2": "5oz Salmon + Wild Rice + Steamed Carrots",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "5oz Bison + Quinoa + Kale",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "3 Egg Whites + Whole Grain Toast + Avocado",
+          "meal2": "5oz Turkey Breast + Sweet Potato + Green Beans",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "5oz Chicken Thighs + Couscous + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "5oz Chicken Breast + Brown Rice + Vegetables",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "5oz Salmon + Quinoa + Asparagus",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Casein Shake + 1oz Almonds"
+        }
+      ],
+      "exercises": ["HIIT", "Strength Training", "Low-Impact Cardio"],
+      "weightCategory": ["Lower (40-60 kg)", "Moderate 1 (60-80 kg)", "Moderate 2 (80-100 kg)", "Higher (100+ kg)"],
+      "heightCategory": ["Lower (140-160 cm)", "Moderate 1 (160-175 cm)", "Moderate 2 (175-190 cm)", "Higher (190+ cm)"],
+      "ageRanges": [20, 24, 28, 32]
+    },
+    {
+      "gender": "female",
+      "goal": "Maintain Weight",
+      "description": "Balanced meals to maintain weight and support overall health.",
+      "dailyMeals": [
+        {
+          "meal1": "3 Eggs + Whole Grain Toast + Avocado",
+          "meal2": "6oz Chicken Breast + Brown Rice + Vegetables",
+          "meal3": "Protein Shake + 1 Banana",
+          "meal4": "6oz Salmon + Quinoa + Asparagus",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "6oz Turkey Breast + Couscous + Mixed Veggies",
+          "meal3": "Protein Bar + 1 Apple",
+          "meal4": "6oz Cod + Sweet Potato + Green Beans",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Casein Shake + 1oz Almonds"
+        },
+        {
+          "meal1": "Pancakes with Egg Whites + Syrup + Berries",
+          "meal2": "6oz Ground Turkey + Salad",
+          "meal3": "Protein Shake + 1 Orange",
+          "meal4": "6oz Pork Chops + Roasted Potatoes + Asparagus",
+          "meal5": "Greek Yogurt with Honey and Nuts",
+          "meal6": "Almond Butter + Rice Cake"
+        },
+        {
+          "meal1": "Egg White Omelette + Avocado Toast",
+          "meal2": "6oz Chicken Breast + Lentils + Mixed Greens",
+          "meal3": "Protein Smoothie + 1 Pear",
+          "meal4": "6oz Steak + Baked Potato + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Casein Shake + 1oz Cashews"
+        },
+        {
+          "meal1": "Scrambled Eggs + Oatmeal + Berries",
+          "meal2": "6oz Salmon + Wild Rice + Steamed Carrots",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "6oz Bison + Quinoa + Kale",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "3 Egg Whites + Whole Grain Toast + Avocado",
+          "meal2": "6oz Turkey Breast + Sweet Potato + Green Beans",
+          "meal3": "Protein Shake + 1 Apple",
+          "meal4": "6oz Chicken Thighs + Couscous + Broccoli",
+          "meal5": "Greek Yogurt with Berries and Honey",
+          "meal6": "Cottage Cheese + 1oz Almonds"
+        },
+        {
+          "meal1": "Omelette with Spinach + 1 Slice Whole Grain Bread",
+          "meal2": "6oz Chicken Breast + Brown Rice + Vegetables",
+          "meal3": "Protein Bar + 1 Banana",
+          "meal4": "6oz Salmon + Quinoa + Asparagus",
+          "meal5": "Greek Yogurt with Granola and Honey",
+          "meal6": "Casein Shake + 1oz Almonds"
+        }
+      ],
+      "exercises": ["Moderate Weight Training", "Cardio", "Flexibility Exercises"],
+      "weightCategory": ["Lower (40-60 kg)", "Moderate 1 (60-80 kg)", "Moderate 2 (80-100 kg)", "Higher (100+ kg)"],
+      "heightCategory": ["Lower (140-160 cm)", "Moderate 1 (160-175 cm)", "Moderate 2 (175-190 cm)", "Higher (190+ cm)"],
+      "ageRanges": [20, 25, 29, 32]
+    }
+  ]

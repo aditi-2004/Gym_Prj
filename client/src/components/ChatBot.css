@@ -1,0 +1,118 @@
+/* Enhanced ChatBot.css */
+
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00bfa5;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  transition: background-color 0.3s;
+}
+
+.chat-button:hover {
+  background-color: #019d8a;
+}
+
+.chat-popup {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 330px;
+  max-height: 500px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: fadeInUp 0.3s ease-out;
+  z-index: 999;
+}
+
+.chat-header {
+  background: #00bfa5;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.chat-messages {
+  padding: 12px;
+  flex: 1;
+  overflow-y: auto;
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-msg {
+  align-self: flex-end;
+  background: #396752;
+  padding: 10px 14px;
+  border-radius: 18px 18px 4px 18px;
+  max-width: 80%;
+  font-size: 14px;
+}
+
+.bot-msg {
+  align-self: flex-start;
+  background: #418151;
+  padding: 10px 14px;
+  border-radius: 18px 18px 18px 4px;
+  max-width: 80%;
+  font-size: 14px;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #e0e0e0;
+  padding: 10px;
+  background: white;
+}
+
+.chat-input input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 100px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.chat-input button {
+  background: #00bfa5;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.chat-input button:hover {
+  background-color: #019d8a;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

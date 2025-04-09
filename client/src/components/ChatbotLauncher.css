@@ -1,0 +1,22 @@
+.chatbot-launcher {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #10b981;
+    color: white;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background 0.3s ease;
+  }
+  
+  .chatbot-launcher:hover {
+    background-color: #059669;
+  }
+  
