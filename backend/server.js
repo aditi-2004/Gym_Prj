@@ -36,7 +36,6 @@
 
 
 
-
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -52,6 +51,7 @@ const expertAdviceRoutes = require("./routes/expertAdviceRoutes");
 const yogaMeditationRoutes = require('./routes/yogaMeditationRoutes');
 const chatbotRoute = require('./routes/chatbot');
 const supportRoutes = require('./routes/supportRoutes');
+const invoiceRoutes = require('./routes/invoiceRoutes');
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -78,10 +78,13 @@ app.use("/api/expert-advice", expertAdviceRoutes);
 app.use('/api/yogaMeditation', yogaMeditationRoutes);
 // app.use('/api', chatbotRoute);
 app.use('/api/support', supportRoutes);
+app.use('/api/invoice', invoiceRoutes);
+
 app.post('/api/support', (req, res) => {
   console.log("Support request: ", req.body); //log the received request body.
   res.status(200).send({ message: 'Support request received successfully!' }); //send a success message
 });
+
 app.post('/api/chatbot-data', (req, res) => {
   const question = req.body.message.toLowerCase();
 

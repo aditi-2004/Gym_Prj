@@ -10,7 +10,7 @@
 //   const plans = {
 //     basic: {
 //       name: "Basic Plan",
-//       price: 29.99,
+//       price: 2489, // Converted $29.99 to ₹2,489 (assuming 1 USD = 83 INR as of March 2025)
 //       features: [
 //         "Access to gym equipment",
 //         "Basic fitness assessment",
@@ -20,7 +20,7 @@
 //     },
 //     premium: {
 //       name: "Premium Plan",
-//       price: 49.99,
+//       price: 4149, // Converted $49.99 to ₹4,149
 //       features: [
 //         "All Basic Plan features",
 //         "Personal trainer (2x/month)",
@@ -31,7 +31,7 @@
 //     },
 //     elite: {
 //       name: "Elite Plan",
-//       price: 79.99,
+//       price: 6639, // Converted $79.99 to ₹6,639
 //       features: [
 //         "All Premium Plan features",
 //         "Unlimited personal training",
@@ -45,15 +45,29 @@
 
 //   const handlePlanSelection = (planType) => {
 //     const selectedPlan = plans[planType];
-//     history.push('/payment', {
-//       cartItems: [{
-//         name: selectedPlan.name,
-//         price: `$${selectedPlan.price}`,
-//         quantity: 1,
-//         size: "N/A",
-//         color: "N/A"
-//       }],
-//       total: selectedPlan.price,
+//     // Get existing cart from localStorage or initialize empty
+//     const existingCart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+//     // Add the new plan to the cart
+//     const updatedCart = [...existingCart, {
+//       name: selectedPlan.name,
+//       price: selectedPlan.price, // Pass as a number in ₹
+//       quantity: 1,
+//       size: "N/A",
+//       color: "N/A",
+//       image: "/assets/images/plan.png" // Optional: Add a placeholder image for plans
+//     }];
+
+//     // Update localStorage with the new cart
+//     localStorage.setItem('cart', JSON.stringify(updatedCart));
+
+//     // Calculate total for navigation (sum of all cart items)
+//     const total = updatedCart.reduce((acc, item) => acc + (item.price * (item.quantity || 1)), 0);
+    
+//     // Push to cart page with updated cart and total
+//     history.push('/cart', {
+//       cartItems: updatedCart,
+//       total: total,
 //       discount: 0
 //     });
 //   };
@@ -75,7 +89,7 @@
 //             className="plan-card"
 //           >
 //             <h3>Basic Plan</h3>
-//             <p className="price">$29.99<span>/month</span></p>
+//             <p className="price">₹2,489<span>/month</span></p>
 //             <ul>
 //               {plans.basic.features.map((feature, index) => (
 //                 <li key={index}>✓ {feature}</li>
@@ -95,7 +109,7 @@
 //             className="plan-card popular"
 //           >
 //             <h3>Premium Plan</h3>
-//             <p className="price">$49.99<span>/month</span></p>
+//             <p className="price">₹4,149<span>/month</span></p>
 //             <ul>
 //               {plans.premium.features.map((feature, index) => (
 //                 <li key={index}>✓ {feature}</li>
@@ -115,7 +129,7 @@
 //             className="plan-card"
 //           >
 //             <h3>Elite Plan</h3>
-//             <p className="price">$79.99<span>/month</span></p>
+//             <p className="price">₹6,639<span>/month</span></p>
 //             <ul>
 //               {plans.elite.features.map((feature, index) => (
 //                 <li key={index}>✓ {feature}</li>
@@ -341,6 +355,10 @@ const JoinUs = () => {
         transition={{ duration: 0.5 }}
         className="membership-wrapper"
       >
+        <h1 className="header-title">PERSONALISE YOUR FITNESS YOUR WAY WITH FITLIFE</h1>
+        <p className="header-description">
+          Get ready to witness your fitness journey taking a transformative turn with personalised fitness plans designed to cater to your unique fitness and wellness goals. Embark on a smart fitness experience that engages and evolves with you so that you stay motivated every step of the way.
+        </p>
         <h1 className="title">Join <span className="highlight">BILVINE'S ENERGYM!</span></h1>
         
         <div className="membership-plans">
